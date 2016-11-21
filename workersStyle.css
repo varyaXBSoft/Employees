@@ -1,0 +1,91 @@
+#popupAdd, #popupEdit {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+h2{
+    margin-left: 30px;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+button{
+    margin: 10px 5px;
+    font-size: 16px;
+    width: 100px;
+}
+#addForm, #editForm{
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; 
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.selected{
+    background-color: lightblue;
+}
+
+.up:after{
+    content: "\25B4";
+}
+
+.down:after{
+    content: "\25BE";
+}
+
+.clicked{
+    color: red;
+}
+.hidden{
+    display: none;
+}
+.invalid{
+    color: red;
+}
+
+label{
+    display: inline-block;
+    width: 120px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+input{
+    margin: 5px 0;
+    height: 20px;
+}
+
+#addNewButton, #editFormButton{
+    margin: 10px 50px;
+    font-size: 16px;
+    height: 30px;
+    width: 150px;
+    
+}
